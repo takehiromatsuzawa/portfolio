@@ -7,19 +7,18 @@
 - B.A., Computer Science and Statistics | Harvard University (_May 2017_)
 
 ## Work Experience
-**Data Science Manager @ Fivestars by SumUp (_June 2022 - Present_)**
+**Data Science Manager @ Fivestars by SumUp (_June 2021 - July 2023_)**
 - SMS Cost Saving: Saved $20k+ by figuring out merchants who use SMS heavily with the NLP package and proposing new pricing strategies to the sales and marketing team.
 - AB Test: Launched an AB test to estimate the impact of a new function that allows users to compare the fees of delivery apps on the Fivestars app. Delivered the key takeaways to management and investors on time by taking a Bayesian approach.
-- Increase Sales Revenue: Investigated Fivestar’s loyalty program by comparing non-loyalty users to loyalty users. Presented the impact of our annual loyalty program (about 80k incremental impact on average). This made the sales team more effective in pitching to customers about the effects of our loyalty program and led to more monthly merchants’ sign-ups.
 - External Customers: Incorporated merchants’ feedback into work and built new customer-facing tableau dashboards for 2000+ enterprise merchants to provide insights on return late and our loyalty program. Led the initiative to implement a recommendation system using collaborative and content-based filtering (NLP).
 - Analytics Engineering: Saved $30k/month by moving legacy workflows to an ELT pipeline on DBT. Improved compute times by 80% by transforming queries to incremental DBT models. Created DBT tests to maintain data integrity. Re-constructed over 20 workflows from product and engineering to align on data mart table structures.
 - Management: Built a data science and analytics team by hiring and onboarding three junior data scientists. Provided weekly feedback to them and created a strategic roadmap for the team.
 
-**Data Scientist @ Amazon (_December 2020 - Present_)**
+**Data Scientist @ Amazon (_May 2020 - June 2021_)**
 - Regional Forecasting Model: Created a time series model which decomposes order units and sales of the US county-level forecast into MSA (a group of counties) level with an error rate of +-3%. Chose the best model with backtesting and optimized hyper-parameters with HyperOpt. The result is published on Tableau every morning, which allows the risk team and fulfillment center to identify anomalies or forecast misses by comparing the forecast data to actual data.
 - Anomaly Detection Model: Created an anomaly detection model with STL by taking trends, weekly seasonality, and special events (Prime Day) into account. The model successfully identifies the anomaly data points, which were flagged manually at weekly callouts. It made weekly callouts more scalable at more granularities and way less time-consuming.
 
-**Data Scientist @ TripAdvisor (_December 2020 - Present_)**
+**Data Scientist @ TripAdvisor (_July 2017 - May 2020_)**
 - Short-term user value model: Owned User Value Model, which calculates the value of each user action on the TripAdvisor website and is crucial to the entire Search Engine Marketing Team (especially bidding). Replaced old multiple linear regression model with XGBoost model on Kubernetes and MLflow platforms. Intuitively explained the XGBoost model to stakeholders by visualizing feature importance with SHAP values and the expected impact of the new model on error reductions and revenue increase.
 - Marketing Attribution Model: Developed new offline models to predict revenue incurred by each hotel booking and to predict hotel booking conversion rate of each click. Collaborated with an engineer to productionize codes and successfully pushed to the live site. Used elastic net regression and cross-validation to select useful features and reduced RMSE of hotel booking revenue prediction by 50%. This model was used across different teams at TripAdvisor. For example, Hotel Sorting Team had an 8% booking revenue increase by using this new model prediction as one of the features. Moreover, this model has been widely used at TripAdvisor to allocate revenue from providers that do not share revenue data with TripAdvisor.
 
