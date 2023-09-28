@@ -22,7 +22,8 @@
 **Data Scientist Intern @ Facebook (_December 2020 - Present_)**
 - AB Test: Detected anomaly drop-off points and unnatural flow of users on Facebook Platform and drove a team of about 20 engineers
 to conduct A/B tests by changing the description of stages where users tend to drop off. Predicted user completion rate with logistic regression based on variables such as user experience, past revenue, and country
-[
+
+
 ## Projects
 ### Non-Inferiority Test
 
