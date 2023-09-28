@@ -27,7 +27,7 @@ to conduct A/B tests by changing the description of stages where users tend to d
 ## Projects
 ### Non-Inferiority Test
 
-- [Link to Code](https://github.com/takehiromatsuzawa/portfolio/blob/main/Projects/num_samples_non_inferiority_test.ipynb)
+- [Link to Repository](https://github.com/takehiromatsuzawa/portfolio/blob/main/Projects/num_samples_non_inferiority_test.ipynb)
 
 
 Non-inferiority trials test whether a new product is not unacceptably worse than a product already in use.
