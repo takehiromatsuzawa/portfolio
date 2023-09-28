@@ -8,8 +8,12 @@
 
 ## Work Experience
 **Data Science Manager @ Fivestars by SumUp (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+- SMS Cost Saving: Saved $20k+ by figuring out merchants who use SMS heavily with the NLP package and proposing new pricing strategies to the sales and marketing team.
+- AB Test: Launched an AB test to estimate the impact of a new function that allows users to compare the fees of delivery apps on the Fivestars app. Delivered the key takeaways to management and investors on time by taking a Bayesian approach.
+- Increase Sales Revenue: Investigated Fivestar’s loyalty program by comparing non-loyalty users to loyalty users. Presented the impact of our annual loyalty program (about 80k incremental impact on average). This made the sales team more effective in pitching to customers about the effects of our loyalty program and led to more monthly merchants’ sign-ups.
+- External Customers: Incorporated merchants’ feedback into work and built new customer-facing tableau dashboards for 2000+ enterprise merchants to provide insights on return late and our loyalty program. Led the initiative to implement a recommendation system using collaborative and content-based filtering (NLP).
+- Analytics Engineering: Saved $30k/month by moving legacy workflows to an ELT pipeline on DBT. Improved compute times by 80% by transforming queries to incremental DBT models. Created DBT tests to maintain data integrity. Re-constructed over 20 workflows from product and engineering to align on data mart table structures.
+- Management: Built a data science and analytics team by hiring and onboarding three junior data scientists. Provided weekly feedback to them and created a strategic roadmap for the team.
 
 **Data Scientist @ Amazon (_December 2020 - Present_)**
 - Regional Forecasting Model: Created a time series model which decomposes order units and sales of the US county-level forecast into MSA (a group of counties) level with an error rate of +-3%. Chose the best model with backtesting and optimized hyper-parameters with HyperOpt. The result is published on Tableau every morning, which allows the risk team and fulfillment center to identify anomalies or forecast misses by comparing the forecast data to actual data.
