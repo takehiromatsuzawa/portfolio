@@ -49,6 +49,14 @@ that the variant performs -1% or worse than control. Here is a sample data of re
 Problem: Retail bank identifying scam transactions
 A large retail bank is aiming to better identify scam transactions. The dataset they provide contains a sample of information about historical transactions, the customers making the transactions and whether the transaction was fraudulent. They currently use a simple rules-based approach using a subset of the features in the dataset to flag transactions, but they are open to more complex solutions that can give better predictive power while remaining explainable.
 
+Fit Logistic Regression to explain the significant variables
 1. Time Spent on App: An increase of 1 in Time Spent on App is associated with an increase of 1.5% in the odds of being fraud (assuming that all the variables remains fixed).
 2. Years of Education: An increase of 1 in Years of Education  is associated with an decrease of 36% in the odds of being fraud (assuming that all the variables remains fixed).
 3. Number of Transactions to Beneficiary:  An increase of 1 in Number of Transactions to Beneficiary  is associated with an decrease of 31% in the odds of being fraud (assuming that all the variables remains fixed).
+
+
+### SQL Conversion Rate Investigation (Product Analysis)
+1. SQL conversion rate dropped overall over the span of 4 weeks (47%, 47%, 34%, 39%).
+2. During the 4-week span, the average conversion rate for paid social, direct email, other, and Email are 31%, 38%, 45%, and 83% respectively. 
+3. If you break it down by sources, the conversion rates monotonically went up at the source level. Email  (70%-> 72%-> 84%-> 93%). Direct Emaill (18%-> 26%-> 35%-> 41%). Paid Social (18% -> 22% -> 23% -> 33%). 
+4. SQL conversion rate dropped overall since the number of paid social and daily mail increased
