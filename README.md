@@ -56,6 +56,13 @@ Fit Logistic Regression to explain the significant variables
 
 
 ### SQL Conversion Rate Investigation (Product Analysis)
+
+- [Link to Summary Documentation](https://github.com/takehiromatsuzawa/portfolio/blob/main/Projects/Product%20MSL%20SQL%20Investigation/SQL%20conversion%20rate%20investigation.pdf)
+
+- [Link to Code](https://github.com/takehiromatsuzawa/portfolio/blob/main/Projects/Product%20MSL%20SQL%20Investigation/MQL%20SQL%20drop%20rate%20investigation.ipynb)
+
+
+
 1. SQL conversion rate dropped overall over the span of 4 weeks (47%, 47%, 34%, 39%).
 2. During the 4-week span, the average conversion rate for paid social, direct email, other, and Email are 31%, 38%, 45%, and 83% respectively. 
 3. If you break it down by sources, the conversion rates monotonically went up at the source level. Email  (70%-> 72%-> 84%-> 93%). Direct Emaill (18%-> 26%-> 35%-> 41%). Paid Social (18% -> 22% -> 23% -> 33%). 
