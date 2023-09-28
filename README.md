@@ -18,6 +18,7 @@
 **Data Scientist @ TripAdvisor (_December 2020 - Present_)**
 - Short-term user value model: Owned User Value Model, which calculates the value of each user action on the TripAdvisor website and is crucial to the entire Search Engine Marketing Team (especially bidding). Replaced old multiple linear regression model with XGBoost model on Kubernetes and MLflow platforms. Intuitively explained the XGBoost model to stakeholders by visualizing feature importance with SHAP values and the expected impact of the new model on error reductions and revenue increase.
 - Marketing Attribution Model: Developed new offline models to predict revenue incurred by each hotel booking and to predict hotel booking conversion rate of each click. Collaborated with an engineer to productionize codes and successfully pushed to the live site. Used elastic net regression and cross-validation to select useful features and reduced RMSE of hotel booking revenue prediction by 50%. This model was used across different teams at TripAdvisor. For example, Hotel Sorting Team had an 8% booking revenue increase by using this new model prediction as one of the features. Moreover, this model has been widely used at TripAdvisor to allocate revenue from providers that do not share revenue data with TripAdvisor.
+
 **Data Scientist Intern @ Facebook (_December 2020 - Present_)**
 - AB Test: Detected anomaly drop-off points and unnatural flow of users on Facebook Platform and drove a team of about 20 engineers
 to conduct A/B tests by changing the description of stages where users tend to drop off. Predicted user completion rate with logistic regression based on variables such as user experience, past revenue, and country
@@ -25,5 +26,10 @@ to conduct A/B tests by changing the description of stages where users tend to d
 ## Projects
 ### Non-Inferiority Test
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+Non-inferiority trials test whether a new product is not unacceptably worse than a product already in use.
 
+For example, we run A/B tests with a goal of improving revenue per visitor. 
+1. Our null hypothesis would be then that the variant is not performing better than control. Occasionally, we can also accept a variant that is not
+performing worse than e.g. -1% (relative) in terms of RPV compared to control. 
+2. Hence, the null hypothesis (2) is
+that the variant performs -1% or worse than control. Here is a sample data of revenue / visitor.
