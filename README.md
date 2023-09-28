@@ -26,6 +26,10 @@ to conduct A/B tests by changing the description of stages where users tend to d
 
 ## Projects
 ### Non-Inferiority Test
+
+- [Link to Code](https://github.com/takehiromatsuzawa/portfolio/blob/main/Projects/num_samples_non_inferiority_test.ipynb)
+
+
 Non-inferiority trials test whether a new product is not unacceptably worse than a product already in use.
 This python script allows you to compute the number of samples you need for non-inferiority tests. You need to enter mean, variance, significance and power to compute.
 
@@ -34,3 +38,4 @@ For example, we want to run A/B tests with a goal of improving revenue per visit
 performing worse than e.g. -1% (relative) in terms of RPV compared to control. 
 2. Hence, the null hypothesis (2) is
 that the variant performs -1% or worse than control. Here is a sample data of revenue / visitor.
+
