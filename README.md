@@ -38,4 +38,17 @@ For example, we want to run A/B tests with a goal of improving revenue per visit
 performing worse than e.g. -1% (relative) in terms of RPV compared to control. 
 2. Hence, the null hypothesis (2) is
 that the variant performs -1% or worse than control. Here is a sample data of revenue / visitor.
+　
 
+### Bank Fraud Detection
+
+- [Link to Summary Documentation](https://github.com/takehiromatsuzawa/portfolio/blob/main/Projects/Bank%20Anomaly%20Detection/Bank%20Fraud%20Detection.pdf)
+
+- [Link to Code](https://github.com/takehiromatsuzawa/portfolio/blob/main/Projects/Bank%20Anomaly%20Detection/Retail%20bank%20identifying%20scam%20transactions.ipynb)
+
+Problem: Retail bank identifying scam transactions
+A large retail bank is aiming to better identify scam transactions. The dataset they provide contains a sample of information about historical transactions, the customers making the transactions and whether the transaction was fraudulent. They currently use a simple rules-based approach using a subset of the features in the dataset to flag transactions, but they are open to more complex solutions that can give better predictive power while remaining explainable.
+
+1. Time Spent on App: An increase of 1 in Time Spent on App is associated with an increase of 1.5% in the odds of being fraud (assuming that all the variables remains fixed).
+2. Years of Education: An increase of 1 in Years of Education  is associated with an decrease of 36% in the odds of being fraud (assuming that all the variables remains fixed).
+3. Number of Transactions to Beneficiary:  An increase of 1 in Number of Transactions to Beneficiary  is associated with an decrease of 31% in the odds of being fraud (assuming that all the variables remains fixed).
