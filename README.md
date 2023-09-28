@@ -26,10 +26,10 @@ to conduct A/B tests by changing the description of stages where users tend to d
 
 ## Projects
 ### Non-Inferiority Test
-
 Non-inferiority trials test whether a new product is not unacceptably worse than a product already in use.
+This python script allows you to compute the number of samples you need for non-inferiority tests. You need to enter mean, variance, significance and power to compute.
 
-For example, we run A/B tests with a goal of improving revenue per visitor. 
+For example, we want to run A/B tests with a goal of improving revenue per visitor. 
 1. Our null hypothesis would be then that the variant is not performing better than control. Occasionally, we can also accept a variant that is not
 performing worse than e.g. -1% (relative) in terms of RPV compared to control. 
 2. Hence, the null hypothesis (2) is
